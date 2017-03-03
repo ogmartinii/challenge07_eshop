@@ -1,0 +1,204 @@
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}*/
+
+html {
+    background: url('../img/cover_bg.jpg') no-repeat fixed; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+.content {
+    margin: auto;
+    width: 960px;
+    background-color: white;
+    /*opacity: 0.90;*/
+    box-shadow: 0 0 10px 9px rgba(0, 0, 0, 0.50);
+    margin-bottom: 2em;
+    position: relative;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    padding: 0 1em 0 50px;
+    float: left;
+}
+
+.homepage a {
+    color: black;
+    text-decoration: none;
+}
+
+.homepage a:visited {
+    color: black;
+}
+
+.homepage a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+p, h1, h2, h3, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+p, h1, h2, h3, ul {
+    padding-left: 50px;
+}
+
+.nav {
+    padding-top: 15px;
+}
+
+nav {
+    background-color: black;
+    height: 35px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: dimgray;
+    height: 50px;
+}
+
+.footer a:visited {
+    color: black;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.nav a {
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+#dig {
+    position: absolute;
+    top: 100px;
+    right: 1.5em;
+    padding: 0;
+    height: 343px;
+    width: 255px;
+}
+
+button {
+    margin-left: 25px;
+    /*height: 30px;
+    width: 75px;
+    padding: 0;*/
+}
+
+.products-showcase {
+    margin-left: 50px;
+}
+
+.catalogue {
+    margin-left: 50px;
+}
+
+.price_button {
+    display: flex;
+}
+
+#price {
+    margin: 0;
+}
+
+
+.products-showcase a {
+    color: black;
+    text-decoration: none;
+}
+
+.categories a {
+    color: black;
+    text-decoration: none;
+}
+
+.catalogue a {
+    color: black;
+    text-decoration: none;
+}
+
+.products-showcase a:visited {
+    color: black;
+}
+
+.categories a:visited {
+    color: black;
+}
+
+.catalogue a:visited {
+    color: black;
+}
+
+.products-showcase a:hover {
+    text-decoration: underline;
+}
+
+.categories a:hover {
+    text-decoration: underline;
+}
+
+.catalogue a:hover {
+    text-decoration: underline;
+}
